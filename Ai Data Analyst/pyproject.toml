@@ -1,0 +1,15 @@
+[project]
+name = "ai-data-analyst"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=1.69.0",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.23",
+    "langchain-ollama>=1.0.1",
+    "pandas>=3.0.5",
+    "sqlalchemy>=2.0.48",
+    "streamlit>=1.55.0",
+]
